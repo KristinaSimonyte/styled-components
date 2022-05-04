@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Button = styled.button`
   border-radius: 0.3rem;
   border: none;
-  background: rgb(119, 201, 119);
-  color: white;
+  background: ${(props) => props.color.background};
+  color: ${(props) => props.color.color};
+  cursor: pointer;
   padding: 1rem;
 `;
