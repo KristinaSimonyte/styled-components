@@ -1,2 +1,1 @@
-#
-Styled components
+# Styled components
