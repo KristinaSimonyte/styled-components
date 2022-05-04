@@ -6,5 +6,7 @@ export const Button = styled.button`
   background: ${(props) => props.color.background};
   color: ${(props) => props.color.color};
   cursor: pointer;
-  padding: 1rem;
+  padding: 1.5rem;
+  margin: 5px;
+  font-size: 25px;
 `;
