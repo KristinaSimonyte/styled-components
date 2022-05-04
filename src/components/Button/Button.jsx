@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import * as S from './Button.style';
-import { withTheme } from 'styled-components';
 
 const ButtonColors = {
   primary: {
